@@ -1,0 +1,15 @@
+name: comp1801-ml
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - pandas
+  - scikit-learn
+  - matplotlib
+  - seaborn
+  - jupyter
+  - nb_conda_kernels
+  - pip
+  - pip:
+    - tinytex
